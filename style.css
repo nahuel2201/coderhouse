@@ -81,7 +81,7 @@ h1{
     height: 30px;
     background-color: aqua;
 }
-.container{
+.container1{
     display: flex;
     justify-content: space-evenly;
     margin: 50px;
@@ -136,7 +136,7 @@ input:focus{
 
 
 }
-.container:hover{
+.container1:hover{
     box-shadow: 100px;
 }
 
@@ -180,9 +180,14 @@ input:focus{
 
 
 @media (max-width: 500px){
-    .container{
+    .container1{
         flex-direction: column;
     }
     
    
 }
+
+h2{
+    padding: 20px;
+}
+
